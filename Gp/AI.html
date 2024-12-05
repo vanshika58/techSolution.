@@ -1,0 +1,114 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Artificial Intelegence</title>
+    
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 style="margin-left: 40%; font-weight: bolder; font-size: xx-large; font-style: italic;"> <u>Course on Artificial Intelegence </u></h1>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">videos</a>
+
+        <a href="#"><div class="dropdown">
+            <a onclick="myFunction()" class="dropbtn">pdf</a>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="/AI.pdf"> view</a>
+              <a href = "/AI.pdf" download >  
+                <b> download </b>  
+               </a> 
+            </div>
+          </div></a> <br> <br><br><br> <br><br>
+      
+      <button onclick="myFunction1()" style="color: #818181; font-weight: bold; background-color: #111; margin-left: 10%; border-color: #111;">About</button>
+
+      <div id="myDIV" style="color: aliceblue; ">
+        It is as complete Artificial Intelegence course for beginers to advance level it includes topics such as Supervised-unsupervised, NLP, Expert system , Gaming,Deep Learning, Neural network etc.
+      </div> <br><br>
+      <li class="w3-large" style="color: #818181;" ><i style="color: #818181;" class="fa fa-home"></i style="color: #818181"> Home</li>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menue</span>
+      
+      <div class="center">
+        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/FpvnF7_-tW8">
+        </iframe>
+      </div><br>
+      <div class="center">
+        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/Oth_jnB5lOA">
+        </iframe>
+      </div><br>
+      <div class="center">
+        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/Wps7PnyJjDs">
+        </iframe>
+      </div><br>
+      <div class="center">
+        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/3F1ub2quBBk">
+        </iframe>
+      </div><br>
+      <div class="center">
+        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/anW5W67OEME">
+        </iframe>
+      </div><br>
+      <div class="center">
+        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/n9rwoA-36iY">
+        </iframe>
+      </div><br>
+      <div class="center">
+        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/n9rwoA-36iY">
+        </iframe>
+      </div><br>
+      <div class="center">
+        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/qZ1jovXesJA">
+        </iframe>
+      </div><br>
+
+      <script>
+        function myFunction1() {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+    
+<!--script for dropdown-->
+<script>
+   
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+    
+</body>
+</html>
